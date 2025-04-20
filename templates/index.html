@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cancer Prediction</title>
+</head>
+<body>
+    <h1>Cancer Prediction Form</h1>
+    <form method="POST" action="/prediction">
+        
+            <!-- Mean Values -->
+            <label>Radius Mean</label><input type="text" name="radius_mean"><br>
+            <label>Texture Mean</label><input type="text" name="texture_mean"><br>
+            <label>Perimeter Mean</label><input type="text" name="perimeter_mean"><br>
+            <label>Area Mean</label><input type="text" name="area_mean"><br>
+            <label>Smoothness Mean</label><input type="text" name="smoothness_mean"><br>
+            <label>Compactness Mean</label><input type="text" name="compactness_mean"><br>
+            <label>Concavity Mean</label><input type="text" name="concavity_mean"><br>
+            <label>Concave Point Mean</label><input type="text" name="concave_point_mean"><br>
+            <label>Symmetry Mean</label><input type="text" name="symmetry_mean"><br>
+            <label>Fractal Dimension Mean</label><input type="text" name="fractal_dimension_mean"><br>
+          
+            <!-- Standard Error Values -->
+            <label>Radius SE</label><input type="text" name="radius_se"><br>
+            <label>Texture SE</label><input type="text" name="texture_se"><br>
+            <label>Perimeter SE</label><input type="text" name="perimeter_se"><br>
+            <label>Area SE</label><input type="text" name="area_se"><br>
+            <label>Smoothness SE</label><input type="text" name="smoothness_se"><br>
+            <label>Compactness SE</label><input type="text" name="compactness_se"><br>
+            <label>Concavity SE</label><input type="text" name="concavity_se"><br>
+            <label>Concave Point SE</label><input type="text" name="concave_point_se"><br>
+            <label>Symmetry SE</label><input type="text" name="symmetry_se"><br>
+            <label>Fractal Dimension SE</label><input type="text" name="fractal_dimension_se"><br>
+          
+            <!-- Worst Values -->
+            <label>Radius Worst</label><input type="text" name="radius_worst"><br>
+            <label>Texture Worst</label><input type="text" name="texture_worst"><br>
+            <label>Perimeter Worst</label><input type="text" name="perimeter_worst"><br>
+            <label>Area Worst</label><input type="text" name="area_worst"><br>
+            <label>Smoothness Worst</label><input type="text" name="smoothness_worst"><br>
+            <label>Compactness Worst</label><input type="text" name="compactness_worst"><br>
+            <label>Concavity Worst</label><input type="text" name="concavity_worst"><br>
+            <label>Concave Point Worst</label><input type="text" name="concave_point_worst"><br>
+            <label>Symmetry Worst</label><input type="text" name="symmetry_worst"><br>
+            <label>Fractal Dimension Worst</label><input type="text" name="fractal_dimension_worst"><br>
+       
+        <!-- Submit Button -->
+        <input type="submit" value="Get Prediction">
+    </form>
+</body>
+</html>
