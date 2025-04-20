@@ -63,3 +63,6 @@ radius, texture, perimeter, area, smoothness, compactness, concavity, concave po
   
   * Libraries: scikit-learn, Flask, pandas, Jupyter
 
+# Model Screenshot
+
+![image](https://github.com/user-attachments/assets/daf47fa1-a29c-4eeb-9308-7c00bf6de282)
