@@ -3,70 +3,47 @@
 This project is a web application built using Flask that predicts whether a tumor is malignant or benign based on various features from a breast cancer dataset. The prediction is made using a trained machine learning model.
 
 Features
-Input 30 features related to tumor cell characteristics.
-
-Predicts if the tumor is malignant or benign.
-
-Simple, user-friendly web interface built using HTML and Flask.
+* Input 30 features related to tumor cell characteristics.
+* Predicts if the tumor is malignant or benign.
+* Simple, user-friendly web interface built using HTML and Flask.
 
 Backend model built using Scikit-learn and saved as a .pkl file.
 
-Directory Structure
-bash
-Copy
-Edit
-Prediction/
-├── model.pkl              # Trained machine learning model (pickled)
-├── app.py                  # Flask backend application
-├── templates/
-│   └── index.html          # Frontend HTML form
-├── Cancer Prediction.ipynb # Jupyter Notebook (training and EDA)
-Requirements
-Python 3.10+
+# Directory Structure
 
-Flask
+![image](https://github.com/user-attachments/assets/96ea97e8-8664-4e48-8ed5-2aa43ad88b42)
 
-scikit-learn
 
-numpy
 
-pandas
+# Requirements
+* Python 3.10+
+* Flask
 
-Installation
-Clone the repository:
+* scikit-learn
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/breast-cancer-predictor.git
-cd breast-cancer-predictor
-Install dependencies:
+* numpy
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the Flask app:
+* pandas
 
-bash
-Copy
-Edit
-python pre.py
-Open your browser and go to:
+# Installation
+1. Clone the repository:
+   * git clone https://github.com/your-username/breast-cancer-predictor.git
+   * cd breast-cancer-predictor
 
-cpp
-Copy
-Edit
-http://127.0.0.1:5000
-How it Works
-The app takes 30 numerical inputs from a form (based on breast cancer cell features).
+2. Install dependencies:
+   * pip install -r requirements.txt
 
-These inputs are passed to a trained machine learning model (like RandomForest or DecisionTree).
+4. Run the Flask app:
+   * python app.py
 
-The model returns a prediction: Malignant or Benign.
+5. Open your browser and go to:
+   * http://127.0.0.1:5000
+# How it Works
+* The app takes 30 numerical inputs from a form (based on breast cancer cell features).
 
-Note
+* These inputs are passed to a trained machine learning model (like RandomForest or DecisionTree).
+
+* The model returns a prediction: Malignant or Benign.
+
+# Note
 This is a development server. For production, consider using a production-ready WSGI server like Gunicorn or uWSGI.
-
-License
-MIT License
