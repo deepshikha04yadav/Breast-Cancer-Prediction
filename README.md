@@ -2,7 +2,7 @@
 
 This project is a web application built using Flask that predicts whether a tumor is malignant or benign based on various features from a breast cancer dataset. The prediction is made using a trained machine learning model.
 
-Features
+# Features
 * Input 30 features related to tumor cell characteristics.
 * Predicts if the tumor is malignant or benign.
 * Simple, user-friendly web interface built using HTML and Flask.
@@ -45,5 +45,21 @@ Backend model built using Scikit-learn and saved as a .pkl file.
 
 * The model returns a prediction: Malignant or Benign.
 
-# Note
-This is a development server. For production, consider using a production-ready WSGI server like Gunicorn or uWSGI.
+# Features Used
+  * The model uses 30 diagnostic features including:
+
+Mean, standard error, and worst-case values of:
+radius, texture, perimeter, area, smoothness, compactness, concavity, concave points, symmetry, and fractal dimension.
+
+# Warning
+  * This is a development server.
+  
+  * Do NOT use in production without using a WSGI server (e.g., Gunicorn) and proper security measures.
+  
+  * The model may not generalize well for clinical use without further validation.
+
+# Acknowledgements
+  * Dataset: data.csv
+  
+  * Libraries: scikit-learn, Flask, pandas, Jupyter
+
